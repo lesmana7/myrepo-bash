@@ -1,0 +1,12 @@
+#!/bin/bash
+#varuse
+
+nama="riki"
+OS="linux"
+distro="macam-macam, slackware,redhat,centos,ubuntu"
+pc=1
+hasil=`ls -l $0`
+
+clear
+echo -e "Hi $nama,\npake $OS\nDistribusi, $distro\nkomputernya, $pc buah"
+echo "Hasil ls -l $0 adalah =$hasil"
