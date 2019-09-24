@@ -1,0 +1,10 @@
+#! /bin/bash
+#rid1
+
+echo -n "Nama Anda:"
+read nama;
+
+echo "Hi $nama, apa kabarmu";
+echo "Pesan dan kesan:";
+read
+echo "kata $nama, $REPLY";
