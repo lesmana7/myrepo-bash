@@ -1,0 +1,14 @@
+#!/bin/bash
+#waktusystem
+
+#membersihkan tampilan layar
+clear
+
+#menampilkan informasi
+echo -n "Waktu System :"; date
+echo -n "Anda         :"; whoami
+echo -n "Banyak Pemakai :"; who | wc -l
+
+echo  "Waktu System :"; date
+echo  "Anda         :"; whoami
+echo  "Banyak Pemakai :"; who | wc -l
