@@ -1,0 +1,5 @@
+#/bin/bash
+#argumen
+
+echo $1 adalah salah satu $2 populer di $3
+
